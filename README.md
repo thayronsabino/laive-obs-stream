@@ -4,6 +4,18 @@ Plugin de transmissão simultânea para múltiplos destinos (**Multi-RTMP / RTMP
 
 ---
 
+## 📦 Download dos Instaladores (Release v1.0.0)
+
+Baixe a versão pronta para o seu sistema operacional diretamente na [Página de Releases](https://github.com/thayronsabino/laive-obs-stream/releases/tag/1.0.0):
+
+| Sistema | Pacote / Instalador | Como Instalar / Usar |
+| :--- | :--- | :--- |
+| **Windows (x64)** | [⬇️ `obs-multi-rtmp-1.0.0-windows-x64.zip`](https://github.com/thayronsabino/laive-obs-stream/releases/download/1.0.0/obs-multi-rtmp-1.0.0-windows-x64.zip) | Extraia os arquivos na pasta de plugins do OBS (`%ProgramData%\obs-studio\plugins` ou na pasta de instalação do OBS) |
+| **macOS (Universal - M1/M2/M3/M4 & Intel)** | [⬇️ `obs-multi-rtmp-1.0.0-macos-universal.pkg`](https://github.com/thayronsabino/laive-obs-stream/releases/download/1.0.0/obs-multi-rtmp-1.0.0-macos-universal.pkg) | Instalador `.pkg` nativo (duplo clique para instalar) |
+| **Linux (Ubuntu / Debian)** | [⬇️ `obs-multi-rtmp-1.0.0-x86_64-linux-gnu.deb`](https://github.com/thayronsabino/laive-obs-stream/releases/download/1.0.0/obs-multi-rtmp-1.0.0-x86_64-linux-gnu.deb) | Instale via `sudo dpkg -i ...deb` ou instalador de pacotes da sua distro |
+
+---
+
 ## ✨ Principais Recursos
 
 - 📱 **Transmissão Vertical Real (9:16):**
