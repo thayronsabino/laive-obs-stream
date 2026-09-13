@@ -1,4 +1,4 @@
-; NSIS Installer script for Laive OBS Multi-RTMP (Windows)
+; NSIS Installer script for LAIVE AI - OBS Multistream (Windows)
 Unicode true
 RequestExecutionLevel admin
 
@@ -9,11 +9,11 @@ RequestExecutionLevel admin
 !endif
 
 !ifndef PRODUCT_NAME
-    !define PRODUCT_NAME "Laive OBS Multi-RTMP"
+    !define PRODUCT_NAME "LAIVE AI - OBS Multistream"
 !endif
 
 !ifndef PRODUCT_VERSION
-    !define PRODUCT_VERSION "1.0.0"
+    !define PRODUCT_VERSION "1.0.2"
 !endif
 
 OutFile "obs-multi-rtmp-setup.exe"
