@@ -58,8 +58,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
   ${CMAKE_CURRENT_SOURCE_DIR}/dep/nlohmann-json
-  ${CMAKE_CURRENT_SOURCE_DIR}/.deps/obs-studio-31.1.1/libobs
-  ${CMAKE_CURRENT_SOURCE_DIR}/.deps/include
+  ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
 set_target_properties_plugin(${CMAKE_PROJECT_NAME} PROPERTIES OUTPUT_NAME ${_name})
