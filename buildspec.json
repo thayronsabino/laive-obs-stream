@@ -38,7 +38,7 @@
     },
     "name": "obs-multi-rtmp",
     "displayName": "Laive OBS Multi-RTMP",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "LAIVE AI - Thayron Sabino",
     "website": "https://github.com/thayronsabino/laive-obs-stream",
     "email": "thayronsabino@outlook.com"
