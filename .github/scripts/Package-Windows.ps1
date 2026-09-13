@@ -79,7 +79,9 @@ function Package {
         
         $DisplayName = if ($BuildSpec.displayName) { $BuildSpec.displayName } else { $ProductName }
         & makensis.exe "/DPLUGIN_SOURCE_DIR=${InstallerSource}" "/DPRODUCT_NAME=${DisplayName}" "/DPRODUCT_VERSION=${ProductVersion}" "${NsiFile}"
-        if (Test-Path -Path "${ProjectRoot}/release/obs-multi-rtmp-setup.exe") {
+        if (Test-Path -Path "${ProjectRoot}/obs-multi-rtmp-setup.exe") {
+            Move-Item -Force -Path "${ProjectRoot}/obs-multi-rtmp-setup.exe" -Destination "${ProjectRoot}/release/${OutputName}-Installer.exe"
+        } elseif (Test-Path -Path "${ProjectRoot}/release/obs-multi-rtmp-setup.exe") {
             Move-Item -Force -Path "${ProjectRoot}/release/obs-multi-rtmp-setup.exe" -Destination "${ProjectRoot}/release/${OutputName}-Installer.exe"
         }
         Pop-Location -Stack BuildTemp
